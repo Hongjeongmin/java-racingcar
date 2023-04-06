@@ -29,7 +29,7 @@ public class SetCollectionTest {
   @DisplayName("Set의 size() 메소드를 활용해 Set의 크기를 확인하는 학습테스트를 구현한다.")
   public void set1() throws Exception {
     int size = numbers.size();
-    assertThat(numbers).isEqualTo(5);
+    assertThat(size).isEqualTo(5);
   }
 
   @DisplayName("JUnit의 ParameterizedTest를 활용해 중복 코드를 제거해 본다.")
